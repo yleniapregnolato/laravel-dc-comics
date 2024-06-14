@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/comics', [ComicController::class, 'insex'])->name('comic.index');
+// Route::get('/comics', [ComicController::class, 'insex'])->name('comic.index');
 Route:: resource('comics', ComicController::class);
