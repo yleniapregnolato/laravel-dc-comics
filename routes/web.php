@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/comics', [ComicController::class, 'insex'])->name('comic.index');
+Route:: resource('comics', ComicController::class);
