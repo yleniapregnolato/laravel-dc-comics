@@ -14,15 +14,12 @@
 
             <label for="data_vendita" class="form-label">Data vendita</label>
             <input type="text" class="form-control" id="data_vendita" name="data_vendita">
-
-            <label for="tipo" class="form-label">Tipo</label>
-            <input type="text" class="form-control" id="tipo" name="tipo">
-
+         
             <label for="tipo" class="form-label">Tipo</label>
             <select class="form-select" id="tipo" name="tipo">
-              <option selected>Seleziona</option>
-              <option value="comic_book">Comic book</option>
-              <option value="graphic_novel">Graphic Novel</option>
+                <option selected>Seleziona</option>
+                <option value="comic_book">Comic book</option>
+                <option value="graphic_novel">Graphic Novel</option>
             </select>
 
             <button class="btn btn-success mt-4" type="submit">Salva</button>
