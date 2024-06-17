@@ -10,6 +10,7 @@
                 <li>
                     <img class="w-25" src="{{ $comic->immagine }}" alt="">
                     <h4>{{ $comic->titolo }}</h2>
+                    <a class="btn border border-black mt-3 mb-3" href="{{ route('comics.show', ['comic' => $comic->id]) }}">Dettagli</a>
                 </li>
             @endforeach
         </ul>
