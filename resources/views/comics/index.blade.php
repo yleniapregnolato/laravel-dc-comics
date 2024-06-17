@@ -7,10 +7,11 @@
     <div class="container">
         <ul>
             @foreach ($comics as $comic)
-                <li>
+                <li class="">
                     <img class="w-25" src="{{ $comic->immagine }}" alt="">
                     <h4>{{ $comic->titolo }}</h2>
                     <a class="btn border border-black mt-3 mb-3" href="{{ route('comics.show', ['comic' => $comic->id]) }}">Dettagli</a>
+                    <a class="btn border border-black mt-3 mb-3" href="{{ route('comics.edit', ['comic' => $comic->id]) }}">Modifica</a>
                 </li>
             @endforeach
         </ul>
