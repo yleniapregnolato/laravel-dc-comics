@@ -2,6 +2,8 @@
 
 @section('content')
     <h1 class="text-center">FUMETTI</h1>
+    <a class="btn border border-black mt-3 mb-3" href="{{ route('comics.create') }}">Crea un nuovo fumetto</a>
+    
     <div class="container">
         <ul>
             @foreach ($comics as $comic)
