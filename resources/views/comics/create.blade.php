@@ -18,6 +18,13 @@
             <label for="tipo" class="form-label">Tipo</label>
             <input type="text" class="form-control" id="tipo" name="tipo">
 
+            <label for="tipo" class="form-label">Tipo</label>
+            <select class="form-select" id="tipo" name="tipo">
+              <option selected>Seleziona</option>
+              <option value="comic_book">Comic book</option>
+              <option value="graphic_novel">Graphic Novel</option>
+            </select>
+
             <button class="btn btn-success mt-4" type="submit">Salva</button>
         </div>
     </form>
