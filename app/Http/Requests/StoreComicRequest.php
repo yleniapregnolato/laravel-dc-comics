@@ -22,7 +22,10 @@ class StoreComicRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'titolo' => ['required', 'min:3'],
+            'prezzo' => ['required'],
+            'data_vendita' => ['required'],
+            'tipo' => ['required']
         ];
     }
 }

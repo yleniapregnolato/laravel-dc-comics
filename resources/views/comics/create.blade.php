@@ -4,7 +4,7 @@
     <h1>Crea un nuovo fumetto</h1>
 
     @if ($errors->any())
-        <div class="alert-danger">
+        <div class="alert alert-danger">
             <ul>
                 @foreach ($errors->all() as $error )
                     <li>{{ $error }}</li>
